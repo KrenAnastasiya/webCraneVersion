@@ -1,0 +1,29 @@
+{
+  "Emergency":
+  [
+    { "Id":1, "ConnectorId": 1, "CraneId": 1,  "TypeId": 1, "Time": "2019-04-11 12:13:09"},
+    { "Id":2, "ConnectorId": 1, "CraneId": 1,  "TypeId": 1, "Time": "2019-04-11 12:13:11"},
+    { "Id":3, "ConnectorId": 1, "CraneId": 1,  "TypeId": 1, "Time": "2019-04-11 12:14:11"}
+  ],
+  "IOEvent":
+  [
+    { "Id":1, "ConnectorId": 1, "CraneId": 1, "Time": "2019-04-11 12:13:09.613", "Value": 100 },
+    { "Id":2, "ConnectorId": 1, "CraneId": 1, "Time": "2019-04-11 12:13:10.613", "Value": 200 },
+    { "Id":3, "ConnectorId": 1, "CraneId": 1, "Time": "2019-04-11 12:13:11.613", "Value": 300 },
+    { "Id":4, "ConnectorId": 1, "CraneId": 1, "Time": "2019-04-11 12:13:12.613", "Value": 120 },
+    { "Id":5, "ConnectorId": 1, "CraneId": 1, "Time": "2019-04-11 12:13:13.613", "Value": 130 }
+  ],
+  "CraneMove":
+  [
+  	{ "Id":1, "CraneId": 1, "MovementId": 1, "Time": "2019-04-11 12:13:09.613", "Speed": 100 },
+  	{ "Id":2, "CraneId": 1, "MovementId": 2, "Time": "2019-04-11 12:13:12.613", "Speed": 10 }
+  ],
+  "CarriageMove":
+  [
+  	{ "Id":1, "CraneId": 1, "CarriageId":1, "MovementId": 2, "Time": "2019-04-11 12:13:12.613", "Speed": 10 }
+  ],
+   "LiftMove":
+  [
+  	{ "Id":1, "CraneId": 1, "LiftId":1, "MovementId": 2, "Time": "2019-04-11 12:13:12.613", "Speed": 10, "Mass":100 }
+  ]
+}
